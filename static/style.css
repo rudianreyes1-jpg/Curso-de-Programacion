@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #cceee2; /* verde claro exterior */
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #cceee2; /* mismo verde exterior */
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #065f46;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff; /* centro blanco */
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #111;
+}
+
+button {
+    background: #16a34a;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #15803d;
+}
+
+/* Opcional: suavizar los hr si los dejas */
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+    margin: 30px 0;
+}
